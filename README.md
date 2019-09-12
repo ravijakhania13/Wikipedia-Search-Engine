@@ -24,15 +24,15 @@ To search for queries, run the file 'Search.py'. It loads the index from 'Final_
 It also uses the file 'id-title.txt' (which must be in the working directory) to display titles corresponding to the docIDs.
 After it loads up, it gives the user a prompt to enter the query. After that the result of query is displayed. (top K results).
 The format of result is:<br/>
-	*************
-	> Page-Title1
-	> Page-Title2
-	.
-	.
-	.
-	> Page-Title10
-	*************
-	<Time Taken for the Query>
+	*************<br/>
+	> Page-Title1<br/>
+	> Page-Title2<br/>
+	.<br/>
+	.<br/>
+	.<br/>
+	> Page-Title10<br/>
+	*************<br/>
+	<Time Taken for the Query><br/>
 
 To specify normal queries, type them normally. For Field Queries, follow the format:
 	f1:<query> f2:<query> ...
